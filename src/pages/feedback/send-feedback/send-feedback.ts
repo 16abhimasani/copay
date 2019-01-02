@@ -203,7 +203,7 @@ export class SendFeedbackPage {
       if (!option) {
         this.openExternalLink(externalLink);
       } else {
-        this.openExternalLink('https://help.bitpay.com/requestHelp/create');
+        window.open('https://bitpay.com/request-help/wizard?category=wallet', '_self ', 'location=yes');
       }
     });
   }
